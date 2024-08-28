@@ -1,0 +1,24 @@
+@import 'react-toastify/dist/ReactToastify.css';
+
+.Toastify__toast.Toastify__toast-theme--light {
+    @apply p-6 lg:p-8;
+}
+.Toastify__toast.Toastify__toast--success {
+    @apply rounded-none bg-[#f5fff8];
+}
+
+.Toastify__progress-bar--wrp {
+    @apply top-0;
+}
+
+.Toastify__progress-bar--success {
+    @apply bg-success;
+}
+
+.Toastify__progress-bar--animated {
+    @apply opacity-100;
+}
+
+.Toastify__close-button svg {
+    @apply w-5 h-5;
+}

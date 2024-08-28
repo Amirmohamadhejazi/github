@@ -1,0 +1,10 @@
+/* Components */
+@import './components/toast.css';
+@import './components/yet-another-react-lightbox.css';
+
+/* Vendors */
+@import './vendors/mantine.css';
+@import './vendors/tailwind.css';
+
+/* Base */
+@import './base/base.css';
