@@ -1,9 +1,5 @@
-
-
 const LandingTemplate = () => {
-    return (
-        <>home</>
-    )
+    return <>home</>
 }
 
 export default LandingTemplate

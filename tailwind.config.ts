@@ -1,6 +1,6 @@
 import type { Config } from 'tailwindcss'
 
-import { TAILWIND_COLORS } from './src/core/configs/colors'
+// import { TAILWIND_COLORS } from './src/core/configs/colors'
 import { TAILWIND_CUSTOM_CLASSES } from './src/core/constants/tailwind'
 
 const config: Config = {
@@ -15,7 +15,7 @@ const config: Config = {
             '2xl': '1440px',
             '3xl': '1600px',
         },
-        colors: { ...TAILWIND_COLORS },
+        // colors: { ...TAILWIND_COLORS },
         extend: {
             fontFamily: {
                 'yekan-bakh': ['var(--font-yekan-bakh)'],
