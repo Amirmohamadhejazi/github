@@ -1,5 +1,5 @@
 import { ToastContainer } from 'react-toastify'
-import { SmileyIcon } from '@icons'
+// import { SmileyIcon } from '@icons'
 
 const getIcon = (type: string) => {
     switch (type) {
@@ -7,7 +7,7 @@ const getIcon = (type: string) => {
             return (
                 <div className='relative'>
                     <div className=' size-6 bg-success-20 rounded-full'></div>
-                    <SmileyIcon className='text-dark shrink-0 absolute right-1 top-1' />
+                    {/* <SmileyIcon className='text-dark shrink-0 absolute right-1 top-1' /> */}
                 </div>
             )
         default:

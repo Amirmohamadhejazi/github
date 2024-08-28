@@ -12,7 +12,7 @@
 }
 
 .Toastify__progress-bar--success {
-    @apply bg-success;
+    @apply bg-green-500;
 }
 
 .Toastify__progress-bar--animated {
