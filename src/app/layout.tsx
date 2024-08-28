@@ -4,6 +4,7 @@ import { RootProvider } from '@partials/providers/RootProviders'
 
 import { YEKAN_BAKH_FONT } from '@core/configs/fonts'
 import { type ILayoutProps } from '@core/types'
+import { cn } from '@core/utils/common/cn'
 
 import '@styles/globals.css'
 
@@ -13,12 +14,9 @@ export const metadata: Metadata = {
 
 const Layout: FC<ILayoutProps> = ({ children }) => {
     return (
-        <html lang={'fa'} dir='rtl' className={YEKAN_BAKH_FONT.variable}>
-            <body dir='rtl' className={YEKAN_BAKH_FONT.variable}>
-                <RootProvider>
-                    {children}
-                    {/* <RootLayout>{children}</RootLayout> */}
-                </RootProvider>
+        <html lang={'fa'} dir='ltr' className={YEKAN_BAKH_FONT.variable}>
+            <body dir='ltr' className={cn('bg-black text-white', YEKAN_BAKH_FONT.variable)}>
+                <RootProvider>{children}</RootProvider>
             </body>
         </html>
     )
